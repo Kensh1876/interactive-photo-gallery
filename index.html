@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Interactive Photo Gallery</h1>
+
+    <div id="image">
+        Hover over an image below.
+    </div>
+
+    <div id="gallery">
+
+        <img class="preview"
+             src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+             alt="Salmon"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img class="preview"
+             src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?q=80&w=722&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+             alt="Burger"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img class="preview"
+             src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+             alt="Ramen"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
